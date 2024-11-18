@@ -1,0 +1,870 @@
+
+##################################################################################
+Loading workload A try 1
+02:52:10.620 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1151
+[OVERALL], Throughput(ops/sec), 8688.097306689835
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3475238922675934
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3475238922675934
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 531.0
+[CLEANUP], MinLatency(us), 531
+[CLEANUP], MaxLatency(us), 531
+[CLEANUP], 95thPercentileLatency(us), 531
+[CLEANUP], 99thPercentileLatency(us), 531
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 108.55
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 64319
+[INSERT], 95thPercentileLatency(us), 201
+[INSERT], 99thPercentileLatency(us), 663
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 1
+02:52:13.788 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1124
+[OVERALL], Throughput(ops/sec), 8896.79715302491
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3558718861209964
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3558718861209964
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 681.0
+[CLEANUP], MinLatency(us), 681
+[CLEANUP], MaxLatency(us), 681
+[CLEANUP], 95thPercentileLatency(us), 681
+[CLEANUP], 99thPercentileLatency(us), 681
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 105.8863
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 68479
+[INSERT], 95thPercentileLatency(us), 201
+[INSERT], 99thPercentileLatency(us), 535
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 1
+02:52:16.396 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1143
+[OVERALL], Throughput(ops/sec), 8748.906386701663
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3499562554680665
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3499562554680665
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 501.0
+[CLEANUP], MinLatency(us), 501
+[CLEANUP], MaxLatency(us), 501
+[CLEANUP], 95thPercentileLatency(us), 501
+[CLEANUP], 99thPercentileLatency(us), 501
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 107.7839
+[INSERT], MinLatency(us), 34
+[INSERT], MaxLatency(us), 67199
+[INSERT], 95thPercentileLatency(us), 205
+[INSERT], 99thPercentileLatency(us), 715
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 2
+02:52:18.830 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1115
+[OVERALL], Throughput(ops/sec), 8968.609865470851
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.35874439461883406
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.35874439461883406
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 590.0
+[CLEANUP], MinLatency(us), 590
+[CLEANUP], MaxLatency(us), 590
+[CLEANUP], 95thPercentileLatency(us), 590
+[CLEANUP], 99thPercentileLatency(us), 590
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 105.2
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 65919
+[INSERT], 95thPercentileLatency(us), 207
+[INSERT], 99thPercentileLatency(us), 632
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 2
+02:52:21.822 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1104
+[OVERALL], Throughput(ops/sec), 9057.971014492754
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.36231884057971014
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.36231884057971014
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 683.0
+[CLEANUP], MinLatency(us), 683
+[CLEANUP], MaxLatency(us), 683
+[CLEANUP], 95thPercentileLatency(us), 683
+[CLEANUP], 99thPercentileLatency(us), 683
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 104.3221
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 72063
+[INSERT], 95thPercentileLatency(us), 197
+[INSERT], 99thPercentileLatency(us), 505
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 2
+02:52:24.448 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1068
+[OVERALL], Throughput(ops/sec), 9363.295880149813
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 5
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.46816479400749067
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 5
+[TOTAL_GC_TIME_%], Time(%), 0.46816479400749067
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 565.0
+[CLEANUP], MinLatency(us), 565
+[CLEANUP], MaxLatency(us), 565
+[CLEANUP], 95thPercentileLatency(us), 565
+[CLEANUP], 99thPercentileLatency(us), 565
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 100.8818
+[INSERT], MinLatency(us), 34
+[INSERT], MaxLatency(us), 77567
+[INSERT], 95thPercentileLatency(us), 201
+[INSERT], 99thPercentileLatency(us), 293
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 3
+02:52:26.817 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1419
+[OVERALL], Throughput(ops/sec), 7047.216349541931
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.28188865398167723
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.28188865398167723
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 511.0
+[CLEANUP], MinLatency(us), 511
+[CLEANUP], MaxLatency(us), 511
+[CLEANUP], 95thPercentileLatency(us), 511
+[CLEANUP], 99thPercentileLatency(us), 511
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 135.5619
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 183039
+[INSERT], 95thPercentileLatency(us), 188
+[INSERT], 99thPercentileLatency(us), 273
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 3
+02:52:30.364 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1276
+[OVERALL], Throughput(ops/sec), 7836.990595611285
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3134796238244514
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3134796238244514
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 690.0
+[CLEANUP], MinLatency(us), 690
+[CLEANUP], MaxLatency(us), 690
+[CLEANUP], 95thPercentileLatency(us), 690
+[CLEANUP], 99thPercentileLatency(us), 690
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 121.4735
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 161535
+[INSERT], 95thPercentileLatency(us), 216
+[INSERT], 99thPercentileLatency(us), 665
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 3
+02:52:33.158 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1135
+[OVERALL], Throughput(ops/sec), 8810.572687224669
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3524229074889868
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3524229074889868
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 588.0
+[CLEANUP], MinLatency(us), 588
+[CLEANUP], MaxLatency(us), 588
+[CLEANUP], 95thPercentileLatency(us), 588
+[CLEANUP], 99thPercentileLatency(us), 588
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 106.979
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 66367
+[INSERT], 95thPercentileLatency(us), 199
+[INSERT], 99thPercentileLatency(us), 470
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 4
+02:52:35.447 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1133
+[OVERALL], Throughput(ops/sec), 8826.1253309797
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.353045013239188
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.353045013239188
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 631.0
+[CLEANUP], MinLatency(us), 631
+[CLEANUP], MaxLatency(us), 631
+[CLEANUP], 95thPercentileLatency(us), 631
+[CLEANUP], 99thPercentileLatency(us), 631
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 106.8611
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 62655
+[INSERT], 95thPercentileLatency(us), 207
+[INSERT], 99thPercentileLatency(us), 374
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 4
+02:52:38.517 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1142
+[OVERALL], Throughput(ops/sec), 8756.567425569177
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3502626970227671
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3502626970227671
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 559.0
+[CLEANUP], MinLatency(us), 559
+[CLEANUP], MaxLatency(us), 559
+[CLEANUP], 95thPercentileLatency(us), 559
+[CLEANUP], 99thPercentileLatency(us), 559
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 107.2318
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 74751
+[INSERT], 95thPercentileLatency(us), 199
+[INSERT], 99thPercentileLatency(us), 551
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 4
+02:52:41.242 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1067
+[OVERALL], Throughput(ops/sec), 9372.071227741331
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.37488284910965325
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.37488284910965325
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 599.0
+[CLEANUP], MinLatency(us), 599
+[CLEANUP], MaxLatency(us), 599
+[CLEANUP], 95thPercentileLatency(us), 599
+[CLEANUP], 99thPercentileLatency(us), 599
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 100.8864
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 74239
+[INSERT], 95thPercentileLatency(us), 200
+[INSERT], 99thPercentileLatency(us), 413
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 5
+02:52:43.623 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1112
+[OVERALL], Throughput(ops/sec), 8992.805755395684
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3597122302158274
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3597122302158274
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 793.0
+[CLEANUP], MinLatency(us), 793
+[CLEANUP], MaxLatency(us), 793
+[CLEANUP], 95thPercentileLatency(us), 793
+[CLEANUP], 99thPercentileLatency(us), 793
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 105.5025
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 64927
+[INSERT], 95thPercentileLatency(us), 216
+[INSERT], 99thPercentileLatency(us), 386
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 5
+02:52:46.672 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1109
+[OVERALL], Throughput(ops/sec), 9017.132551848512
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 5
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.4508566275924256
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 5
+[TOTAL_GC_TIME_%], Time(%), 0.4508566275924256
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 611.0
+[CLEANUP], MinLatency(us), 611
+[CLEANUP], MaxLatency(us), 611
+[CLEANUP], 95thPercentileLatency(us), 611
+[CLEANUP], 99thPercentileLatency(us), 611
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 105.0907
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 66239
+[INSERT], 95thPercentileLatency(us), 212
+[INSERT], 99thPercentileLatency(us), 510
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 5
+02:52:49.322 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1181
+[OVERALL], Throughput(ops/sec), 8467.400508044031
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3386960203217612
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3386960203217612
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 628.0
+[CLEANUP], MinLatency(us), 628
+[CLEANUP], MaxLatency(us), 628
+[CLEANUP], 95thPercentileLatency(us), 628
+[CLEANUP], 99thPercentileLatency(us), 628
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 112.3109
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 66815
+[INSERT], 95thPercentileLatency(us), 221
+[INSERT], 99thPercentileLatency(us), 545
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 6
+02:52:51.685 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1088
+[OVERALL], Throughput(ops/sec), 9191.176470588236
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3676470588235294
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3676470588235294
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 882.0
+[CLEANUP], MinLatency(us), 882
+[CLEANUP], MaxLatency(us), 882
+[CLEANUP], 95thPercentileLatency(us), 882
+[CLEANUP], 99thPercentileLatency(us), 882
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 103.3405
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 59007
+[INSERT], 95thPercentileLatency(us), 209
+[INSERT], 99thPercentileLatency(us), 332
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 6
+02:52:54.656 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1282
+[OVERALL], Throughput(ops/sec), 7800.312012480499
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.31201248049922
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.31201248049922
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 629.0
+[CLEANUP], MinLatency(us), 629
+[CLEANUP], MaxLatency(us), 629
+[CLEANUP], 95thPercentileLatency(us), 629
+[CLEANUP], 99thPercentileLatency(us), 629
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 121.5752
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 61343
+[INSERT], 95thPercentileLatency(us), 249
+[INSERT], 99thPercentileLatency(us), 669
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 6
+02:52:57.500 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1128
+[OVERALL], Throughput(ops/sec), 8865.248226950354
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3546099290780142
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3546099290780142
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 629.0
+[CLEANUP], MinLatency(us), 629
+[CLEANUP], MaxLatency(us), 629
+[CLEANUP], 95thPercentileLatency(us), 629
+[CLEANUP], 99thPercentileLatency(us), 629
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 106.335
+[INSERT], MinLatency(us), 34
+[INSERT], MaxLatency(us), 68223
+[INSERT], 95thPercentileLatency(us), 203
+[INSERT], 99thPercentileLatency(us), 565
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 7
+02:52:59.898 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1142
+[OVERALL], Throughput(ops/sec), 8756.567425569177
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 5
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.43782837127845886
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 5
+[TOTAL_GC_TIME_%], Time(%), 0.43782837127845886
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 589.0
+[CLEANUP], MinLatency(us), 589
+[CLEANUP], MaxLatency(us), 589
+[CLEANUP], 95thPercentileLatency(us), 589
+[CLEANUP], 99thPercentileLatency(us), 589
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 108.427
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 61727
+[INSERT], 95thPercentileLatency(us), 223
+[INSERT], 99thPercentileLatency(us), 480
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 7
+02:53:03.122 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1065
+[OVERALL], Throughput(ops/sec), 9389.671361502347
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3755868544600939
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3755868544600939
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 580.0
+[CLEANUP], MinLatency(us), 580
+[CLEANUP], MaxLatency(us), 580
+[CLEANUP], 95thPercentileLatency(us), 580
+[CLEANUP], 99thPercentileLatency(us), 580
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 101.4187
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 66495
+[INSERT], 95thPercentileLatency(us), 206
+[INSERT], 99thPercentileLatency(us), 394
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 7
+02:53:05.791 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1129
+[OVERALL], Throughput(ops/sec), 8857.395925597873
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.354295837023915
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.354295837023915
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 608.0
+[CLEANUP], MinLatency(us), 608
+[CLEANUP], MaxLatency(us), 608
+[CLEANUP], 95thPercentileLatency(us), 608
+[CLEANUP], 99thPercentileLatency(us), 608
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 106.5164
+[INSERT], MinLatency(us), 34
+[INSERT], MaxLatency(us), 65247
+[INSERT], 95thPercentileLatency(us), 200
+[INSERT], 99thPercentileLatency(us), 646
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 8
+02:53:08.250 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1174
+[OVERALL], Throughput(ops/sec), 8517.887563884156
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 5
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.42589437819420783
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 5
+[TOTAL_GC_TIME_%], Time(%), 0.42589437819420783
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 531.0
+[CLEANUP], MinLatency(us), 531
+[CLEANUP], MaxLatency(us), 531
+[CLEANUP], 95thPercentileLatency(us), 531
+[CLEANUP], 99thPercentileLatency(us), 531
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 111.0796
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 70399
+[INSERT], 95thPercentileLatency(us), 223
+[INSERT], 99thPercentileLatency(us), 405
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 8
+02:53:11.479 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1265
+[OVERALL], Throughput(ops/sec), 7905.138339920949
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 5
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3952569169960474
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 5
+[TOTAL_GC_TIME_%], Time(%), 0.3952569169960474
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 701.0
+[CLEANUP], MinLatency(us), 701
+[CLEANUP], MaxLatency(us), 701
+[CLEANUP], 95thPercentileLatency(us), 701
+[CLEANUP], 99thPercentileLatency(us), 701
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 120.5222
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 59743
+[INSERT], 95thPercentileLatency(us), 231
+[INSERT], 99thPercentileLatency(us), 665
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 8
+02:53:14.211 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1122
+[OVERALL], Throughput(ops/sec), 8912.6559714795
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 5
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.4456327985739751
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 5
+[TOTAL_GC_TIME_%], Time(%), 0.4456327985739751
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 608.0
+[CLEANUP], MinLatency(us), 608
+[CLEANUP], MaxLatency(us), 608
+[CLEANUP], 95thPercentileLatency(us), 608
+[CLEANUP], 99thPercentileLatency(us), 608
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 106.9643
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 55775
+[INSERT], 95thPercentileLatency(us), 206
+[INSERT], 99thPercentileLatency(us), 314
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 9
+02:53:16.657 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1264
+[OVERALL], Throughput(ops/sec), 7911.392405063291
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.31645569620253167
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.31645569620253167
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 642.0
+[CLEANUP], MinLatency(us), 642
+[CLEANUP], MaxLatency(us), 642
+[CLEANUP], 95thPercentileLatency(us), 642
+[CLEANUP], 99thPercentileLatency(us), 642
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 119.5268
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 138239
+[INSERT], 95thPercentileLatency(us), 210
+[INSERT], 99thPercentileLatency(us), 509
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 9
+02:53:19.883 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1099
+[OVERALL], Throughput(ops/sec), 9099.181073703367
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3639672429481347
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.3639672429481347
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 546.0
+[CLEANUP], MinLatency(us), 546
+[CLEANUP], MaxLatency(us), 546
+[CLEANUP], 95thPercentileLatency(us), 546
+[CLEANUP], 99thPercentileLatency(us), 546
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 104.187
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 68351
+[INSERT], 95thPercentileLatency(us), 197
+[INSERT], 99thPercentileLatency(us), 435
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 9
+02:53:22.503 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1422
+[OVERALL], Throughput(ops/sec), 7032.348804500703
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2812939521800281
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.2812939521800281
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 911.0
+[CLEANUP], MinLatency(us), 911
+[CLEANUP], MaxLatency(us), 911
+[CLEANUP], 95thPercentileLatency(us), 911
+[CLEANUP], 99thPercentileLatency(us), 911
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 135.2474
+[INSERT], MinLatency(us), 36
+[INSERT], MaxLatency(us), 336383
+[INSERT], 95thPercentileLatency(us), 209
+[INSERT], 99thPercentileLatency(us), 398
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload A try 10
+02:53:25.190 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1063
+[OVERALL], Throughput(ops/sec), 9407.33772342427
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.37629350893697083
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.37629350893697083
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 710.0
+[CLEANUP], MinLatency(us), 710
+[CLEANUP], MaxLatency(us), 710
+[CLEANUP], 95thPercentileLatency(us), 710
+[CLEANUP], 99thPercentileLatency(us), 710
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 101.1195
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 64575
+[INSERT], 95thPercentileLatency(us), 207
+[INSERT], 99thPercentileLatency(us), 343
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadb try 10
+02:53:28.173 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1260
+[OVERALL], Throughput(ops/sec), 7936.507936507936
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.31746031746031744
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.31746031746031744
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 670.0
+[CLEANUP], MinLatency(us), 670
+[CLEANUP], MaxLatency(us), 670
+[CLEANUP], 95thPercentileLatency(us), 670
+[CLEANUP], 99thPercentileLatency(us), 670
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 119.5149
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 103935
+[INSERT], 95thPercentileLatency(us), 210
+[INSERT], 99thPercentileLatency(us), 388
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading workload workloadc try 10
+02:53:31.316 [Thread-3] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
+[OVERALL], RunTime(ms), 1246
+[OVERALL], Throughput(ops/sec), 8025.6821829855535
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.32102728731942215
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.32102728731942215
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 661.0
+[CLEANUP], MinLatency(us), 661
+[CLEANUP], MaxLatency(us), 661
+[CLEANUP], 95thPercentileLatency(us), 661
+[CLEANUP], 99thPercentileLatency(us), 661
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 118.7967
+[INSERT], MinLatency(us), 35
+[INSERT], MaxLatency(us), 177919
+[INSERT], 95thPercentileLatency(us), 191
+[INSERT], 99thPercentileLatency(us), 307
+[INSERT], Return=OK, 10000

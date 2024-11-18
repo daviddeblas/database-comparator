@@ -1,0 +1,43 @@
+version: '3.8'
+
+networks:
+  mongoCluster:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.5.0/24
+          gateway: 192.168.5.1
+
+services:
+  primary:
+    container_name: primary
+    image: mongo:5
+    command: mongod --replSet myReplicaSet --bind_ip_all
+    networks:
+      mongoCluster:
+        ipv4_address: 192.168.5.2
+    ports:
+#      - 27017
+      - "27017:27017"
+
+  secondary1:
+    container_name: secondary1
+    image: mongo:5
+    command: mongod --replSet myReplicaSet --bind_ip_all
+    networks:
+      mongoCluster:
+        ipv4_address: 192.168.5.3
+    ports:
+#      - 27017
+      - "27018:27017"
+  secondary2:
+    container_name: secondary2
+    image: mongo:5
+    command: mongod --replSet myReplicaSet --bind_ip_all
+    networks:
+      mongoCluster:
+        ipv4_address: 192.168.5.4
+    ports:
+#      - 27017
+      - "27019:27017"
+

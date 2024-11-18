@@ -1,0 +1,810 @@
+
+##################################################################################
+Loading data worload A try 1 
+[OVERALL], RunTime(ms), 587
+[OVERALL], Throughput(ops/sec), 17035.775127768313
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.34071550255536626
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.34071550255536626
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 464.0
+[CLEANUP], MinLatency(us), 464
+[CLEANUP], MaxLatency(us), 464
+[CLEANUP], 95thPercentileLatency(us), 464
+[CLEANUP], 99thPercentileLatency(us), 464
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 54.9086
+[INSERT], MinLatency(us), 43
+[INSERT], MaxLatency(us), 3347
+[INSERT], 95thPercentileLatency(us), 73
+[INSERT], 99thPercentileLatency(us), 117
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 1 
+[OVERALL], RunTime(ms), 568
+[OVERALL], Throughput(ops/sec), 17605.6338028169
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.35211267605633806
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.35211267605633806
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 339.0
+[CLEANUP], MinLatency(us), 339
+[CLEANUP], MaxLatency(us), 339
+[CLEANUP], 95thPercentileLatency(us), 339
+[CLEANUP], 99thPercentileLatency(us), 339
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 53.2699
+[INSERT], MinLatency(us), 40
+[INSERT], MaxLatency(us), 3117
+[INSERT], 95thPercentileLatency(us), 78
+[INSERT], 99thPercentileLatency(us), 125
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 1
+[OVERALL], RunTime(ms), 661
+[OVERALL], Throughput(ops/sec), 15128.593040847201
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.30257186081694404
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.30257186081694404
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 366.0
+[CLEANUP], MinLatency(us), 366
+[CLEANUP], MaxLatency(us), 366
+[CLEANUP], 95thPercentileLatency(us), 366
+[CLEANUP], 99thPercentileLatency(us), 366
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 62.2236
+[INSERT], MinLatency(us), 41
+[INSERT], MaxLatency(us), 5167
+[INSERT], 95thPercentileLatency(us), 115
+[INSERT], 99thPercentileLatency(us), 162
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 2 
+[OVERALL], RunTime(ms), 579
+[OVERALL], Throughput(ops/sec), 17271.157167530226
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3454231433506045
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.3454231433506045
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 383.0
+[CLEANUP], MinLatency(us), 383
+[CLEANUP], MaxLatency(us), 383
+[CLEANUP], 95thPercentileLatency(us), 383
+[CLEANUP], 99thPercentileLatency(us), 383
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 54.0099
+[INSERT], MinLatency(us), 40
+[INSERT], MaxLatency(us), 3013
+[INSERT], 95thPercentileLatency(us), 80
+[INSERT], 99thPercentileLatency(us), 129
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 2 
+[OVERALL], RunTime(ms), 607
+[OVERALL], Throughput(ops/sec), 16474.464579901152
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3294892915980231
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.3294892915980231
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 382.0
+[CLEANUP], MinLatency(us), 382
+[CLEANUP], MaxLatency(us), 382
+[CLEANUP], 95thPercentileLatency(us), 382
+[CLEANUP], 99thPercentileLatency(us), 382
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 57.3152
+[INSERT], MinLatency(us), 38
+[INSERT], MaxLatency(us), 5975
+[INSERT], 95thPercentileLatency(us), 94
+[INSERT], 99thPercentileLatency(us), 145
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 2
+[OVERALL], RunTime(ms), 680
+[OVERALL], Throughput(ops/sec), 14705.882352941177
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.29411764705882354
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.29411764705882354
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 446.0
+[CLEANUP], MinLatency(us), 446
+[CLEANUP], MaxLatency(us), 446
+[CLEANUP], 95thPercentileLatency(us), 446
+[CLEANUP], 99thPercentileLatency(us), 446
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 64.2672
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 4531
+[INSERT], 95thPercentileLatency(us), 96
+[INSERT], 99thPercentileLatency(us), 137
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 3 
+[OVERALL], RunTime(ms), 656
+[OVERALL], Throughput(ops/sec), 15243.90243902439
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3048780487804878
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.3048780487804878
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 406.0
+[CLEANUP], MinLatency(us), 406
+[CLEANUP], MaxLatency(us), 406
+[CLEANUP], 95thPercentileLatency(us), 406
+[CLEANUP], 99thPercentileLatency(us), 406
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 62.1789
+[INSERT], MinLatency(us), 49
+[INSERT], MaxLatency(us), 5683
+[INSERT], 95thPercentileLatency(us), 83
+[INSERT], 99thPercentileLatency(us), 124
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 3 
+[OVERALL], RunTime(ms), 676
+[OVERALL], Throughput(ops/sec), 14792.899408284024
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 3
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.4437869822485207
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 3
+[TOTAL_GC_TIME_%], Time(%), 0.4437869822485207
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 409.0
+[CLEANUP], MinLatency(us), 409
+[CLEANUP], MaxLatency(us), 409
+[CLEANUP], 95thPercentileLatency(us), 409
+[CLEANUP], 99thPercentileLatency(us), 409
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 64.1333
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3119
+[INSERT], 95thPercentileLatency(us), 101
+[INSERT], 99thPercentileLatency(us), 154
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 3
+[OVERALL], RunTime(ms), 636
+[OVERALL], Throughput(ops/sec), 15723.270440251572
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3144654088050315
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.3144654088050315
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 432.0
+[CLEANUP], MinLatency(us), 432
+[CLEANUP], MaxLatency(us), 432
+[CLEANUP], 95thPercentileLatency(us), 432
+[CLEANUP], 99thPercentileLatency(us), 432
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 60.1759
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3167
+[INSERT], 95thPercentileLatency(us), 89
+[INSERT], 99thPercentileLatency(us), 138
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 4 
+[OVERALL], RunTime(ms), 693
+[OVERALL], Throughput(ops/sec), 14430.01443001443
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2886002886002886
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2886002886002886
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 444.0
+[CLEANUP], MinLatency(us), 444
+[CLEANUP], MaxLatency(us), 444
+[CLEANUP], 95thPercentileLatency(us), 444
+[CLEANUP], 99thPercentileLatency(us), 444
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 65.3294
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 5811
+[INSERT], 95thPercentileLatency(us), 93
+[INSERT], 99thPercentileLatency(us), 135
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 4 
+[OVERALL], RunTime(ms), 673
+[OVERALL], Throughput(ops/sec), 14858.84101040119
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2971768202080238
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2971768202080238
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 406.0
+[CLEANUP], MinLatency(us), 406
+[CLEANUP], MaxLatency(us), 406
+[CLEANUP], 95thPercentileLatency(us), 406
+[CLEANUP], 99thPercentileLatency(us), 406
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 63.5643
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3255
+[INSERT], 95thPercentileLatency(us), 91
+[INSERT], 99thPercentileLatency(us), 133
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 4
+[OVERALL], RunTime(ms), 734
+[OVERALL], Throughput(ops/sec), 13623.978201634878
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2724795640326975
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2724795640326975
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 406.0
+[CLEANUP], MinLatency(us), 406
+[CLEANUP], MaxLatency(us), 406
+[CLEANUP], 95thPercentileLatency(us), 406
+[CLEANUP], 99thPercentileLatency(us), 406
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 69.3474
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3061
+[INSERT], 95thPercentileLatency(us), 125
+[INSERT], 99thPercentileLatency(us), 302
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 5 
+[OVERALL], RunTime(ms), 660
+[OVERALL], Throughput(ops/sec), 15151.515151515152
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.30303030303030304
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.30303030303030304
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 454.0
+[CLEANUP], MinLatency(us), 454
+[CLEANUP], MaxLatency(us), 454
+[CLEANUP], 95thPercentileLatency(us), 454
+[CLEANUP], 99thPercentileLatency(us), 454
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 62.4054
+[INSERT], MinLatency(us), 47
+[INSERT], MaxLatency(us), 3221
+[INSERT], 95thPercentileLatency(us), 93
+[INSERT], 99thPercentileLatency(us), 143
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 5 
+[OVERALL], RunTime(ms), 778
+[OVERALL], Throughput(ops/sec), 12853.470437017995
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2570694087403599
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2570694087403599
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 381.0
+[CLEANUP], MinLatency(us), 381
+[CLEANUP], MaxLatency(us), 381
+[CLEANUP], 95thPercentileLatency(us), 381
+[CLEANUP], 99thPercentileLatency(us), 381
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 73.2612
+[INSERT], MinLatency(us), 42
+[INSERT], MaxLatency(us), 5987
+[INSERT], 95thPercentileLatency(us), 170
+[INSERT], 99thPercentileLatency(us), 338
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 5
+[OVERALL], RunTime(ms), 760
+[OVERALL], Throughput(ops/sec), 13157.894736842105
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2631578947368421
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2631578947368421
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 373.0
+[CLEANUP], MinLatency(us), 373
+[CLEANUP], MaxLatency(us), 373
+[CLEANUP], 95thPercentileLatency(us), 373
+[CLEANUP], 99thPercentileLatency(us), 373
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 72.2766
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 4819
+[INSERT], 95thPercentileLatency(us), 129
+[INSERT], 99thPercentileLatency(us), 183
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 6 
+[OVERALL], RunTime(ms), 692
+[OVERALL], Throughput(ops/sec), 14450.86705202312
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2890173410404624
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2890173410404624
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 395.0
+[CLEANUP], MinLatency(us), 395
+[CLEANUP], MaxLatency(us), 395
+[CLEANUP], 95thPercentileLatency(us), 395
+[CLEANUP], 99thPercentileLatency(us), 395
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 65.6353
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 5987
+[INSERT], 95thPercentileLatency(us), 106
+[INSERT], 99thPercentileLatency(us), 149
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 6 
+[OVERALL], RunTime(ms), 639
+[OVERALL], Throughput(ops/sec), 15649.452269170579
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3129890453834116
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.3129890453834116
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 378.0
+[CLEANUP], MinLatency(us), 378
+[CLEANUP], MaxLatency(us), 378
+[CLEANUP], 95thPercentileLatency(us), 378
+[CLEANUP], 99thPercentileLatency(us), 378
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 60.4542
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3045
+[INSERT], 95thPercentileLatency(us), 81
+[INSERT], 99thPercentileLatency(us), 126
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 6
+[OVERALL], RunTime(ms), 676
+[OVERALL], Throughput(ops/sec), 14792.899408284024
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2958579881656805
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2958579881656805
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 502.0
+[CLEANUP], MinLatency(us), 502
+[CLEANUP], MaxLatency(us), 502
+[CLEANUP], 95thPercentileLatency(us), 502
+[CLEANUP], 99thPercentileLatency(us), 502
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 63.8173
+[INSERT], MinLatency(us), 44
+[INSERT], MaxLatency(us), 3145
+[INSERT], 95thPercentileLatency(us), 94
+[INSERT], 99thPercentileLatency(us), 145
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 7 
+[OVERALL], RunTime(ms), 806
+[OVERALL], Throughput(ops/sec), 12406.94789081886
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.24813895781637718
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.24813895781637718
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 445.0
+[CLEANUP], MinLatency(us), 445
+[CLEANUP], MaxLatency(us), 445
+[CLEANUP], 95thPercentileLatency(us), 445
+[CLEANUP], 99thPercentileLatency(us), 445
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 76.8435
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 7179
+[INSERT], 95thPercentileLatency(us), 155
+[INSERT], 99thPercentileLatency(us), 296
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 7 
+[OVERALL], RunTime(ms), 789
+[OVERALL], Throughput(ops/sec), 12674.271229404309
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.5069708491761723
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.5069708491761723
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 391.0
+[CLEANUP], MinLatency(us), 391
+[CLEANUP], MaxLatency(us), 391
+[CLEANUP], 95thPercentileLatency(us), 391
+[CLEANUP], 99thPercentileLatency(us), 391
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 75.2495
+[INSERT], MinLatency(us), 49
+[INSERT], MaxLatency(us), 5795
+[INSERT], 95thPercentileLatency(us), 123
+[INSERT], 99thPercentileLatency(us), 171
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 7
+[OVERALL], RunTime(ms), 655
+[OVERALL], Throughput(ops/sec), 15267.175572519083
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3053435114503817
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.3053435114503817
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 414.0
+[CLEANUP], MinLatency(us), 414
+[CLEANUP], MaxLatency(us), 414
+[CLEANUP], 95thPercentileLatency(us), 414
+[CLEANUP], 99thPercentileLatency(us), 414
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 61.927
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3277
+[INSERT], 95thPercentileLatency(us), 91
+[INSERT], 99thPercentileLatency(us), 132
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 8 
+[OVERALL], RunTime(ms), 649
+[OVERALL], Throughput(ops/sec), 15408.320493066256
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.30816640986132515
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.30816640986132515
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 381.0
+[CLEANUP], MinLatency(us), 381
+[CLEANUP], MaxLatency(us), 381
+[CLEANUP], 95thPercentileLatency(us), 381
+[CLEANUP], 99thPercentileLatency(us), 381
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 61.3399
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3239
+[INSERT], 95thPercentileLatency(us), 84
+[INSERT], 99thPercentileLatency(us), 113
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 8 
+[OVERALL], RunTime(ms), 696
+[OVERALL], Throughput(ops/sec), 14367.816091954022
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.28735632183908044
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.28735632183908044
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 385.0
+[CLEANUP], MinLatency(us), 385
+[CLEANUP], MaxLatency(us), 385
+[CLEANUP], 95thPercentileLatency(us), 385
+[CLEANUP], 99thPercentileLatency(us), 385
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 65.914
+[INSERT], MinLatency(us), 47
+[INSERT], MaxLatency(us), 3285
+[INSERT], 95thPercentileLatency(us), 97
+[INSERT], 99thPercentileLatency(us), 141
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 8
+[OVERALL], RunTime(ms), 641
+[OVERALL], Throughput(ops/sec), 15600.624024960998
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.31201248049922
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.31201248049922
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 375.0
+[CLEANUP], MinLatency(us), 375
+[CLEANUP], MaxLatency(us), 375
+[CLEANUP], 95thPercentileLatency(us), 375
+[CLEANUP], 99thPercentileLatency(us), 375
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 60.6387
+[INSERT], MinLatency(us), 47
+[INSERT], MaxLatency(us), 3267
+[INSERT], 95thPercentileLatency(us), 86
+[INSERT], 99thPercentileLatency(us), 132
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 9 
+[OVERALL], RunTime(ms), 713
+[OVERALL], Throughput(ops/sec), 14025.245441795232
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2805049088359046
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2805049088359046
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 397.0
+[CLEANUP], MinLatency(us), 397
+[CLEANUP], MaxLatency(us), 397
+[CLEANUP], 95thPercentileLatency(us), 397
+[CLEANUP], 99thPercentileLatency(us), 397
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 67.3072
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3073
+[INSERT], 95thPercentileLatency(us), 110
+[INSERT], 99thPercentileLatency(us), 192
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 9 
+[OVERALL], RunTime(ms), 736
+[OVERALL], Throughput(ops/sec), 13586.95652173913
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2717391304347826
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2717391304347826
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 382.0
+[CLEANUP], MinLatency(us), 382
+[CLEANUP], MaxLatency(us), 382
+[CLEANUP], 95thPercentileLatency(us), 382
+[CLEANUP], 99thPercentileLatency(us), 382
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 69.9748
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3175
+[INSERT], 95thPercentileLatency(us), 113
+[INSERT], 99thPercentileLatency(us), 194
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 9
+[OVERALL], RunTime(ms), 673
+[OVERALL], Throughput(ops/sec), 14858.84101040119
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2971768202080238
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2971768202080238
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 393.0
+[CLEANUP], MinLatency(us), 393
+[CLEANUP], MaxLatency(us), 393
+[CLEANUP], 95thPercentileLatency(us), 393
+[CLEANUP], 99thPercentileLatency(us), 393
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 63.6459
+[INSERT], MinLatency(us), 44
+[INSERT], MaxLatency(us), 3113
+[INSERT], 95thPercentileLatency(us), 94
+[INSERT], 99thPercentileLatency(us), 130
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload A try 10 
+[OVERALL], RunTime(ms), 825
+[OVERALL], Throughput(ops/sec), 12121.212121212122
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.24242424242424243
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.24242424242424243
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 388.0
+[CLEANUP], MinLatency(us), 388
+[CLEANUP], MaxLatency(us), 388
+[CLEANUP], 95thPercentileLatency(us), 388
+[CLEANUP], 99thPercentileLatency(us), 388
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 78.4584
+[INSERT], MinLatency(us), 49
+[INSERT], MaxLatency(us), 57343
+[INSERT], 95thPercentileLatency(us), 102
+[INSERT], 99thPercentileLatency(us), 280
+[INSERT], Return=OK, 10000
+
+##################################################################################
+ Loading data worload B try 10 
+[OVERALL], RunTime(ms), 743
+[OVERALL], Throughput(ops/sec), 13458.950201884252
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2691790040376851
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2691790040376851
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 448.0
+[CLEANUP], MinLatency(us), 448
+[CLEANUP], MaxLatency(us), 448
+[CLEANUP], 95thPercentileLatency(us), 448
+[CLEANUP], 99thPercentileLatency(us), 448
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 70.4984
+[INSERT], MinLatency(us), 48
+[INSERT], MaxLatency(us), 3757
+[INSERT], 95thPercentileLatency(us), 126
+[INSERT], 99thPercentileLatency(us), 214
+[INSERT], Return=OK, 10000
+
+##################################################################################
+Loading data worload C try 10
+[OVERALL], RunTime(ms), 692
+[OVERALL], Throughput(ops/sec), 14450.86705202312
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2890173410404624
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 2
+[TOTAL_GC_TIME_%], Time(%), 0.2890173410404624
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 422.0
+[CLEANUP], MinLatency(us), 422
+[CLEANUP], MaxLatency(us), 422
+[CLEANUP], 95thPercentileLatency(us), 422
+[CLEANUP], 99thPercentileLatency(us), 422
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 65.4425
+[INSERT], MinLatency(us), 49
+[INSERT], MaxLatency(us), 3327
+[INSERT], 95thPercentileLatency(us), 104
+[INSERT], 99thPercentileLatency(us), 158
+[INSERT], Return=OK, 10000
