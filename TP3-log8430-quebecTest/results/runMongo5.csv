@@ -1,7 +1,7 @@
 Initializing results for Run Async Mongo Tests - 3 nodes configuration
 
 ##################################################################################
-Running test workload A try 1
+Running workload A try 1
 02:31:08.403 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 28221
@@ -37,7 +37,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5040
 
 ##################################################################################
-Running test workload workloadb try 1
+Running workload B try 1
 02:32:17.432 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 38435
@@ -73,7 +73,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 8992
 
 ##################################################################################
-Running test workload workloadc try 1
+Running workload C try 1
 02:33:34.478 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 2931
@@ -102,7 +102,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 3085
 
 ##################################################################################
-Running test workload A try 2
+Running workload A try 2
 02:34:14.703 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 23995
@@ -138,7 +138,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5008
 
 ##################################################################################
-Running test workload workloadb try 2
+Running workload B try 2
 02:35:17.462 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 37779
@@ -174,7 +174,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 9027
 
 ##################################################################################
-Running test workload workloadc try 2
+Running workload C try 2
 02:36:33.072 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3797
@@ -203,7 +203,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 3211
 
 ##################################################################################
-Running test workload A try 3
+Running workload A try 3
 02:37:13.993 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 28803
@@ -239,7 +239,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 4996
 
 ##################################################################################
-Running test workload workloadb try 3
+Running workload B try 3
 02:38:23.994 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 40993
@@ -275,7 +275,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 8931
 
 ##################################################################################
-Running test workload workloadc try 3
+Running workload C try 3
 02:39:43.210 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3291
@@ -304,7 +304,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 8095
 
 ##################################################################################
-Running test workload A try 4
+Running workload A try 4
 02:40:27.386 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 24404
@@ -340,7 +340,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5097
 
 ##################################################################################
-Running test workload workloadb try 4
+Running workload B try 4
 02:41:33.662 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 38549
@@ -376,7 +376,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 8970
 
 ##################################################################################
-Running test workload workloadc try 4
+Running workload C try 4
 02:42:50.350 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 2985
@@ -405,7 +405,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 5135
 
 ##################################################################################
-Running test workload A try 5
+Running workload A try 5
 02:43:33.135 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 27573
@@ -441,7 +441,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5063
 
 ##################################################################################
-Running test workload workloadb try 5
+Running workload B try 5
 02:44:43.465 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 40434
@@ -477,7 +477,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 9017
 
 ##################################################################################
-Running test workload workloadc try 5
+Running workload C try 5
 02:46:05.428 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 2958
@@ -506,7 +506,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 3323
 
 ##################################################################################
-Running test workload A try 6
+Running workload A try 6
 02:46:44.382 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 26356
@@ -542,7 +542,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5053
 
 ##################################################################################
-Running test workload workloadb try 6
+Running workload B try 6
 02:47:49.538 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 39675
@@ -578,7 +578,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 8954
 
 ##################################################################################
-Running test workload workloadc try 6
+Running workload C try 6
 02:49:12.455 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3016
@@ -607,7 +607,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 4139
 
 ##################################################################################
-Running test workload A try 7
+Running workload A try 7
 02:49:55.537 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 24917
@@ -643,7 +643,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 4960
 
 ##################################################################################
-Running test workload workloadb try 7
+Running workload B try 7
 02:51:00.147 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 41080
@@ -679,7 +679,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 8988
 
 ##################################################################################
-Running test workload workloadc try 7
+Running workload C try 7
 02:52:23.288 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3196
@@ -708,7 +708,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 3977
 
 ##################################################################################
-Running test workload A try 8
+Running workload A try 8
 02:53:06.261 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 26548
@@ -744,7 +744,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5033
 
 ##################################################################################
-Running test workload workloadb try 8
+Running workload B try 8
 02:54:14.209 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 41038
@@ -780,7 +780,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 9044
 
 ##################################################################################
-Running test workload workloadc try 8
+Running workload C try 8
 02:55:29.994 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3378
@@ -809,7 +809,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 2825
 
 ##################################################################################
-Running test workload A try 9
+Running workload A try 9
 02:56:14.248 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 28708
@@ -845,7 +845,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 4960
 
 ##################################################################################
-Running test workload workloadb try 9
+Running workload B try 9
 02:57:26.192 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 40440
@@ -881,7 +881,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 8983
 
 ##################################################################################
-Running test workload workloadc try 9
+Running workload C try 9
 02:58:45.104 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3646
@@ -910,7 +910,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [CLEANUP], 99thPercentileLatency(us), 3837
 
 ##################################################################################
-Running test workload A try 10
+Running workload A try 10
 02:59:27.120 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 29798
@@ -946,7 +946,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 5121
 
 ##################################################################################
-Running test workload workloadb try 10
+Running workload B try 10
 03:00:30.672 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 37854
@@ -982,7 +982,7 @@ mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myRepl
 [UPDATE], Return=OK, 9001
 
 ##################################################################################
-Running test workload workloadc try 10
+Running workload C try 10
 03:01:49.544 [Thread-2] INFO  c.a.mongodb.MongoClientConfiguration - Not validating the replica set name is 'myReplicaSet'.
 mongo connection created with mongodb://192.168.5.2:27017/ycsb?replicaSet=myReplicaSet
 [OVERALL], RunTime(ms), 3263

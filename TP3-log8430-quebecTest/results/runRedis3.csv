@@ -1,5 +1,4 @@
-Initializing results for Run Redis Tests
-Running test workload A try 1
+Running workload A try 1
 [OVERALL], RunTime(ms), 1534
 [OVERALL], Throughput(ops/sec), 6518.90482398957
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -33,7 +32,7 @@ Running test workload A try 1
 [UPDATE], Return=OK, 5031
 
 ##################################################################################
-Running test workload B try 1
+Running workload B try 1
 [OVERALL], RunTime(ms), 1620
 [OVERALL], Throughput(ops/sec), 6172.83950617284
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -67,7 +66,7 @@ Running test workload B try 1
 [UPDATE], Return=OK, 8973
 
 ##################################################################################
-Running test workload C try 1
+Running workload C try 1
 [OVERALL], RunTime(ms), 1174
 [OVERALL], Throughput(ops/sec), 8517.887563884156
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -92,7 +91,9 @@ Running test workload C try 1
 [CLEANUP], MaxLatency(us), 591
 [CLEANUP], 95thPercentileLatency(us), 591
 [CLEANUP], 99thPercentileLatency(us), 591
-Running test workload A try 2
+
+##################################################################################
+Running workload A try 2
 [OVERALL], RunTime(ms), 1320
 [OVERALL], Throughput(ops/sec), 7575.757575757576
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -126,7 +127,7 @@ Running test workload A try 2
 [UPDATE], Return=OK, 4956
 
 ##################################################################################
-Running test workload B try 2
+Running workload B try 2
 [OVERALL], RunTime(ms), 1840
 [OVERALL], Throughput(ops/sec), 5434.782608695652
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -160,7 +161,7 @@ Running test workload B try 2
 [UPDATE], Return=OK, 9028
 
 ##################################################################################
-Running test workload C try 2
+Running workload C try 2
 [OVERALL], RunTime(ms), 1183
 [OVERALL], Throughput(ops/sec), 8453.085376162298
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -185,7 +186,9 @@ Running test workload C try 2
 [CLEANUP], MaxLatency(us), 667
 [CLEANUP], 95thPercentileLatency(us), 667
 [CLEANUP], 99thPercentileLatency(us), 667
-Running test workload A try 3
+
+##################################################################################
+Running workload A try 3
 [OVERALL], RunTime(ms), 1349
 [OVERALL], Throughput(ops/sec), 7412.898443291327
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -219,7 +222,7 @@ Running test workload A try 3
 [UPDATE], Return=OK, 4985
 
 ##################################################################################
-Running test workload B try 3
+Running workload B try 3
 [OVERALL], RunTime(ms), 1615
 [OVERALL], Throughput(ops/sec), 6191.950464396285
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -253,7 +256,7 @@ Running test workload B try 3
 [UPDATE], Return=OK, 8917
 
 ##################################################################################
-Running test workload C try 3
+Running workload C try 3
 [OVERALL], RunTime(ms), 1481
 [OVERALL], Throughput(ops/sec), 6752.19446320054
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -278,7 +281,9 @@ Running test workload C try 3
 [CLEANUP], MaxLatency(us), 3351
 [CLEANUP], 95thPercentileLatency(us), 3351
 [CLEANUP], 99thPercentileLatency(us), 3351
-Running test workload A try 4
+
+##################################################################################
+Running workload A try 4
 [OVERALL], RunTime(ms), 1796
 [OVERALL], Throughput(ops/sec), 5567.92873051225
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -312,7 +317,7 @@ Running test workload A try 4
 [UPDATE], Return=OK, 5021
 
 ##################################################################################
-Running test workload B try 4
+Running workload B try 4
 [OVERALL], RunTime(ms), 1610
 [OVERALL], Throughput(ops/sec), 6211.180124223602
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -346,7 +351,7 @@ Running test workload B try 4
 [UPDATE], Return=OK, 9018
 
 ##################################################################################
-Running test workload C try 4
+Running workload C try 4
 [OVERALL], RunTime(ms), 1361
 [OVERALL], Throughput(ops/sec), 7347.538574577517
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -371,7 +376,9 @@ Running test workload C try 4
 [CLEANUP], MaxLatency(us), 1027
 [CLEANUP], 95thPercentileLatency(us), 1027
 [CLEANUP], 99thPercentileLatency(us), 1027
-Running test workload A try 5
+
+##################################################################################
+Running workload A try 5
 [OVERALL], RunTime(ms), 1742
 [OVERALL], Throughput(ops/sec), 5740.52812858783
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -405,7 +412,7 @@ Running test workload A try 5
 [UPDATE], Return=OK, 4941
 
 ##################################################################################
-Running test workload B try 5
+Running workload B try 5
 [OVERALL], RunTime(ms), 1615
 [OVERALL], Throughput(ops/sec), 6191.950464396285
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -439,7 +446,7 @@ Running test workload B try 5
 [UPDATE], Return=OK, 8977
 
 ##################################################################################
-Running test workload C try 5
+Running workload C try 5
 [OVERALL], RunTime(ms), 1127
 [OVERALL], Throughput(ops/sec), 8873.114463176575
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -464,7 +471,9 @@ Running test workload C try 5
 [CLEANUP], MaxLatency(us), 938
 [CLEANUP], 95thPercentileLatency(us), 938
 [CLEANUP], 99thPercentileLatency(us), 938
-Running test workload A try 6
+
+##################################################################################
+Running workload A try 6
 [OVERALL], RunTime(ms), 1322
 [OVERALL], Throughput(ops/sec), 7564.296520423601
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -498,7 +507,7 @@ Running test workload A try 6
 [UPDATE], Return=OK, 5016
 
 ##################################################################################
-Running test workload B try 6
+Running workload B try 6
 [OVERALL], RunTime(ms), 1741
 [OVERALL], Throughput(ops/sec), 5743.825387708213
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -532,7 +541,7 @@ Running test workload B try 6
 [UPDATE], Return=OK, 9021
 
 ##################################################################################
-Running test workload C try 6
+Running workload C try 6
 [OVERALL], RunTime(ms), 1330
 [OVERALL], Throughput(ops/sec), 7518.796992481203
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -557,7 +566,9 @@ Running test workload C try 6
 [CLEANUP], MaxLatency(us), 691
 [CLEANUP], 95thPercentileLatency(us), 691
 [CLEANUP], 99thPercentileLatency(us), 691
-Running test workload A try 7
+
+##################################################################################
+Running workload A try 7
 [OVERALL], RunTime(ms), 1380
 [OVERALL], Throughput(ops/sec), 7246.376811594203
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -591,7 +602,7 @@ Running test workload A try 7
 [UPDATE], Return=OK, 5002
 
 ##################################################################################
-Running test workload B try 7
+Running workload B try 7
 [OVERALL], RunTime(ms), 1800
 [OVERALL], Throughput(ops/sec), 5555.555555555556
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -625,7 +636,7 @@ Running test workload B try 7
 [UPDATE], Return=OK, 9005
 
 ##################################################################################
-Running test workload C try 7
+Running workload C try 7
 [OVERALL], RunTime(ms), 1390
 [OVERALL], Throughput(ops/sec), 7194.244604316546
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -650,7 +661,9 @@ Running test workload C try 7
 [CLEANUP], MaxLatency(us), 719
 [CLEANUP], 95thPercentileLatency(us), 719
 [CLEANUP], 99thPercentileLatency(us), 719
-Running test workload A try 8
+
+##################################################################################
+Running workload A try 8
 [OVERALL], RunTime(ms), 1674
 [OVERALL], Throughput(ops/sec), 5973.715651135006
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -684,7 +697,7 @@ Running test workload A try 8
 [UPDATE], Return=OK, 4957
 
 ##################################################################################
-Running test workload B try 8
+Running workload B try 8
 [OVERALL], RunTime(ms), 1887
 [OVERALL], Throughput(ops/sec), 5299.417064122947
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -718,7 +731,7 @@ Running test workload B try 8
 [UPDATE], Return=OK, 9006
 
 ##################################################################################
-Running test workload C try 8
+Running workload C try 8
 [OVERALL], RunTime(ms), 1451
 [OVERALL], Throughput(ops/sec), 6891.7987594762235
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -743,7 +756,9 @@ Running test workload C try 8
 [CLEANUP], MaxLatency(us), 867
 [CLEANUP], 95thPercentileLatency(us), 867
 [CLEANUP], 99thPercentileLatency(us), 867
-Running test workload A try 9
+
+##################################################################################
+Running workload A try 9
 [OVERALL], RunTime(ms), 1590
 [OVERALL], Throughput(ops/sec), 6289.308176100629
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -777,7 +792,7 @@ Running test workload A try 9
 [UPDATE], Return=OK, 4962
 
 ##################################################################################
-Running test workload B try 9
+Running workload B try 9
 [OVERALL], RunTime(ms), 1947
 [OVERALL], Throughput(ops/sec), 5136.106831022085
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -811,7 +826,7 @@ Running test workload B try 9
 [UPDATE], Return=OK, 8964
 
 ##################################################################################
-Running test workload C try 9
+Running workload C try 9
 [OVERALL], RunTime(ms), 1159
 [OVERALL], Throughput(ops/sec), 8628.127696289905
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -836,7 +851,9 @@ Running test workload C try 9
 [CLEANUP], MaxLatency(us), 984
 [CLEANUP], 95thPercentileLatency(us), 984
 [CLEANUP], 99thPercentileLatency(us), 984
-Running test workload A try 10
+
+##################################################################################
+Running workload A try 10
 [OVERALL], RunTime(ms), 1523
 [OVERALL], Throughput(ops/sec), 6565.988181221273
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -870,7 +887,7 @@ Running test workload A try 10
 [UPDATE], Return=OK, 4995
 
 ##################################################################################
-Running test workload B try 10
+Running workload B try 10
 [OVERALL], RunTime(ms), 1929
 [OVERALL], Throughput(ops/sec), 5184.033177812338
 [TOTAL_GCS_G1_Young_Generation], Count, 3
@@ -904,7 +921,7 @@ Running test workload B try 10
 [UPDATE], Return=OK, 9028
 
 ##################################################################################
-Running test workload C try 10
+Running workload C try 10
 [OVERALL], RunTime(ms), 1668
 [OVERALL], Throughput(ops/sec), 5995.2038369304555
 [TOTAL_GCS_G1_Young_Generation], Count, 3
