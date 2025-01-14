@@ -1,7 +1,7 @@
 # Redis vs MongoDB: A Comparative Study
 
 ## Project Overview
-This project compares the performance of two NoSQL databases, Redis and MongoDB, in distributed environments. Conducted as part of the **LOG8430** course at Polytechnique Montréal, the study evaluates these databases based on speed, latency, and scalability under various workloads.
+This project compares the performance of two NoSQL databases, Redis and MongoDB, in distributed environments. Conducted as part of the **Software architecture and advanced design** course at Polytechnique Montréal, the study evaluates these databases based on speed, latency, and scalability under various workloads.
 
 ---
 
